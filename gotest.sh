@@ -6,7 +6,7 @@ function go_test_category ()
     resultfile=./gotest-result/result-go-$1.txt
     set -e
     echo "" > $resultfile
-    for d in $(go list ./leetcode-go/$1/... | grep -v vendor); do
+    for d in $(go list ./$1/... | grep -v vendor); do
         echo $d
         go test -coverprofile=$tempfile -covermode=atomic $d
         if [ -f $tempfile ]; then
