@@ -9,7 +9,7 @@ func searchFirstEqualElement(nums []int, target int) int {
 	left, mid, right := 0, 0, len(nums)-1
 	index := -1
 	for left <= right {
-		mid = left + ((right - left) >> 1)
+		mid = (left + right) / 2
 		if nums[mid] > target {
 			right = mid - 1
 		} else if nums[mid] < target {
@@ -32,7 +32,7 @@ func searchLastEqualElement(nums []int, target int) int {
 	left, mid, right := 0, 0, len(nums)-1
 	index := -1
 	for left <= right {
-		mid = left + ((right - left) >> 1)
+		mid = (left + right) / 2
 		if nums[mid] > target {
 			right = mid - 1
 		} else if nums[mid] < target {
