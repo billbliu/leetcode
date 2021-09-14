@@ -1,4 +1,12 @@
-package array
+/*
+ * @Author: bill
+ * @Date: 2021-09-14 11:28:30
+ * @LastEditors: bill
+ * @LastEditTime: 2021-09-14 11:53:07
+ * @Description: go test -v  0034_find_first_and_last_position_of_element_in_sorted_array_test.go 0034_find_first_and_last_position_of_element_in_sorted_array.go
+ * @FilePath: /leetcode-go/problems/0034_find_first_and_last_position_of_element_in_sorted_array.go
+ */
+package problems
 
 func searchRange(nums []int, target int) []int {
 	return []int{searchFirstEqualElement(nums, target), searchLastEqualElement(nums, target)}

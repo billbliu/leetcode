@@ -1,4 +1,12 @@
-package array
+/*
+ * @Author: bill
+ * @Date: 2021-09-14 11:28:30
+ * @LastEditors: bill
+ * @LastEditTime: 2021-09-14 11:56:10
+ * @Description: go test -v 0268_missing_number_test.go 0268_missing_number.go
+ * @FilePath: /leetcode-go/problems/0268_missing_number_test.go
+ */
+package problems
 
 import (
 	"testing"

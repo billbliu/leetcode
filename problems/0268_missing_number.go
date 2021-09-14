@@ -1,4 +1,12 @@
-package array
+/*
+ * @Author: bill
+ * @Date: 2021-09-14 11:28:30
+ * @LastEditors: bill
+ * @LastEditTime: 2021-09-14 11:57:25
+ * @Description: go test -v 0268_missing_number_test.go 0268_missing_number.go
+ * @FilePath: /leetcode-go/problems/0268_missing_number.go
+ */
+package problems
 
 import "sort"
 
@@ -25,10 +33,7 @@ func missingNumber3(nums []int) int {
 	sort.Ints(nums)
 	left, right := 0, len(nums)
 	mid := (left + right) / 2
-	for {
-		if left >= right {
-			break
-		}
+	for left < right {
 		if nums[mid] > mid {
 			right = mid
 		} else {
