@@ -2,17 +2,11 @@
  * @Author: bill
  * @Date: 2021-09-14 11:28:30
  * @LastEditors: bill
- * @LastEditTime: 2021-09-17 10:08:22
- * @Description: go test -v  0021_merge_two_sorted_lists_test.go 0021_merge_two_sorted_lists.go
+ * @LastEditTime: 2021-09-18 11:59:05
+ * @Description: go test -v  0021_merge_two_sorted_lists_test.go 0021_merge_two_sorted_lists.go types.go
  * @FilePath: /leetcode-go/problems/0021_merge_two_sorted_lists.go
  */
 package problems
-
-import (
-	"github.com/billbliu/leetcode-go/structures"
-)
-
-type ListNode = structures.ListNode
 
 /**
  * Definition for singly-linked list.

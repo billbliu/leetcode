@@ -2,7 +2,7 @@
  * @Author: bill
  * @Date: 2021-09-14 11:28:30
  * @LastEditors: bill
- * @LastEditTime: 2021-09-14 11:49:58
+ * @LastEditTime: 2021-09-18 11:53:04
  * @Description: go test -v  0001_two_sum_test.go 0001_two_sum.go
  * @FilePath: /leetcode-go/problems/0001_two_sum_test.go
  */

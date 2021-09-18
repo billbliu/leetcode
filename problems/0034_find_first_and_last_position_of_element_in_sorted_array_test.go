@@ -2,7 +2,7 @@
  * @Author: bill
  * @Date: 2021-09-14 11:28:30
  * @LastEditors: bill
- * @LastEditTime: 2021-09-14 11:54:27
+ * @LastEditTime: 2021-09-18 12:02:08
  * @Description: go test -v  0034_find_first_and_last_position_of_element_in_sorted_array_test.go 0034_find_first_and_last_position_of_element_in_sorted_array.go
  * @FilePath: /leetcode-go/problems/0034_find_first_and_last_position_of_element_in_sorted_array_test.go
  */
@@ -47,6 +47,11 @@ func Test_Problem34(t *testing.T) {
 	t.Log("————————————————————solution 1————————————————————")
 	for _, q := range qs {
 		t.Logf("[input]:%v		[output]:%v\n", q.para34, searchRange(q.para34.one, q.para34.two))
+	}
+
+	t.Log("————————————————————solution 2————————————————————")
+	for _, q := range qs {
+		t.Logf("[input]:%v		[output]:%v\n", q.para34, searchRange1(q.para34.one, q.para34.two))
 	}
 
 	t.Logf("\n\n")

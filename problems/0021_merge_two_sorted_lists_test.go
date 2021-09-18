@@ -2,8 +2,8 @@
  * @Author: bill
  * @Date: 2021-09-14 11:28:30
  * @LastEditors: bill
- * @LastEditTime: 2021-09-17 10:07:36
- * @Description: go test -v  0021_merge_two_sorted_lists_test.go 0021_merge_two_sorted_lists.go
+ * @LastEditTime: 2021-09-18 13:46:26
+ * @Description: go test -v  0021_merge_two_sorted_lists_test.go 0021_merge_two_sorted_lists.go types.go
  * @FilePath: /leetcode-go/problems/0021_merge_two_sorted_lists_test.go
  */
 package problems

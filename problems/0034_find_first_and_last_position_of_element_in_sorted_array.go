@@ -2,7 +2,7 @@
  * @Author: bill
  * @Date: 2021-09-14 11:28:30
  * @LastEditors: bill
- * @LastEditTime: 2021-09-14 11:53:07
+ * @LastEditTime: 2021-09-18 12:00:09
  * @Description: go test -v  0034_find_first_and_last_position_of_element_in_sorted_array_test.go 0034_find_first_and_last_position_of_element_in_sorted_array.go
  * @FilePath: /leetcode-go/problems/0034_find_first_and_last_position_of_element_in_sorted_array.go
  */
@@ -10,6 +10,10 @@ package problems
 
 func searchRange(nums []int, target int) []int {
 	return []int{searchFirstEqualElement(nums, target), searchLastEqualElement(nums, target)}
+}
+
+func searchRange1(nums []int, target int) []int {
+	return []int{searchFirstGreaterOrEqualElement(nums, target), searchLastLessOrEqualElement(nums, target)}
 }
 
 // 二分查找第一个等于target的元素，时间复杂度为O(logn)
